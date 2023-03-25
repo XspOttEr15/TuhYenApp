@@ -19,12 +19,6 @@ class Home : AppCompatActivity() {
             startActivity(intent2)
         }
 
-        val imageButtonBack = findViewById<ImageButton>(R.id.imageButton3)
-        imageButtonBack.setOnClickListener{
-            val intent3 = Intent (this, MainActivity::class.java)
-            startActivity(intent3)
-        }
-
         val imageButtonskin = findViewById<ImageButton>(R.id.imageButton02)
         imageButtonskin.setOnClickListener{
             val intent3 = Intent (this, skin_popup::class.java)
